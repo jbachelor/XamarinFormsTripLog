@@ -8,7 +8,7 @@ namespace TripLog
 		{
 			InitializeComponent();
 
-			MainPage = new TripLogPage();
+			MainPage = new NavigationPage(new TripLog.MainPage());
 		}
 
 		protected override void OnStart()
