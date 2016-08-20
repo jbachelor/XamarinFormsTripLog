@@ -49,6 +49,7 @@
       <DependentUpon>MainPageXaml.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\TripLogEntry.cs" />
+    <Compile Include="NewEntryPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -10,6 +10,18 @@ namespace TripLog
 	{
 		public MainPage()
 		{
+			var newButton = new ToolbarItem
+			{
+				Text = "New"
+			};
+
+			newButton.Clicked += (object sender, EventArgs e) =>
+			{
+				Navigation.PushAsync(new NewEntryPage());
+			};
+
+			ToolbarItems.Add(newButton);
+
 			Title = "TripLog";
 			var items = new List<TripLogEntry>
 			{
