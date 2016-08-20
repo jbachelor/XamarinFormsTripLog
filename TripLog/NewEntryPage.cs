@@ -60,6 +60,13 @@ namespace TripLog
 				}
 			};
 
+			var save = new ToolbarItem
+			{
+				Text = "Save"
+			};
+
+			ToolbarItems.Add(save);
+
 			Content = entryForm;
 		}
 
